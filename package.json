@@ -1,9 +1,19 @@
 {
-    "name": "my-plugin",
-    "version": "0.0.1",
-    "license": "MIT",
-    "main": "./out",
-    "dependencies": {
-        "typescript": "^4.4.3"
-    }
+  "name": "adonis-ts-plugin",
+  "version": "1.0.0-alpha.1",
+  "license": "MIT",
+  "main": "./out",
+  "files": [
+    "out"
+  ],
+  "scripts": {
+    "test": "echo 'No tests yet!'",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
 }
