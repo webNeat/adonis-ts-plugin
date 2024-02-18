@@ -1,0 +1,16 @@
+[
+  {
+    "start": [8, 1],
+    "end": [8, 42],
+    "category": 1,
+    "code": 99001,
+    "message": "The following methods are missing on the controller: store, edit, update"
+  },
+  {
+    "start": [9, 1],
+    "end": [9, 48],
+    "category": 1,
+    "code": 99001,
+    "message": "The following methods are missing on the controller: edit, update"
+  }
+]

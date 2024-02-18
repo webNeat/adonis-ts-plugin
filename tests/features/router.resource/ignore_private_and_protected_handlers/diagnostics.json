@@ -1,0 +1,9 @@
+[
+  {
+    "start": [11, 1],
+    "end": [11, 40],
+    "category": 1,
+    "code": 99001,
+    "message": "The following methods are missing on the controller: index, store, update"
+  }
+]
