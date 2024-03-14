@@ -1,6 +1,8 @@
 {
   "name": "adonis-ts-plugin",
-  "version": "1.0.0-alpha.2",
+  "description": "A Typescript plugin for additional type-checking for Adonis projects",
+  "author": "Amine Ben hammou",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "./out/index.js",
   "files": [
@@ -9,8 +11,8 @@
   ],
   "bin": "bin/adonis-ts-plugin",
   "scripts": {
-    "test": "npm run build && cd tests && npm install && npm test",
-    "build": "rm -rf out && tsc"
+    "build": "rm -rf out && tsc",
+    "test": "npm run build && cd tests && npm install && npm test"
   },
   "devDependencies": {
     "@types/node": "^20.11.19",
