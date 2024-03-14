@@ -1,0 +1,9 @@
+[
+  {
+    "start": [19, 1],
+    "end": [19, 40],
+    "category": 1,
+    "code": 99001,
+    "message": "The following methods are missing on the controller: create, edit"
+  }
+]

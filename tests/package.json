@@ -1,0 +1,23 @@
+{
+  "name": "adonis-ts-plugin-e2e-tests",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "license": "UNLICENSED",
+  "scripts": {
+    "test": "tsx run.ts"
+  },
+  "dependencies": {
+    "@adonisjs/core": "^6.2.2",
+    "fast-glob": "^3.3.2"
+  },
+  "devDependencies": {
+    "@adonisjs/tsconfig": "^1.2.1",
+    "@japa/expect": "^3.0.0-1",
+    "@japa/runner": "^3.0.0-9",
+    "@types/node": "^20.11.10",
+    "adonis-ts-plugin": "file:..",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  }
+}

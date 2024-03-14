@@ -1,3 +1,3 @@
 # Adonis Typescript Plugin
 
-**This is still a work in progress**
+A Typescript plugin for additional type-checking in Adonis projects.
